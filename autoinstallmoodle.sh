@@ -97,8 +97,10 @@ systemctl reload apache2
 # Persiapan untuk instalasi Moodle
 echo "Persiapkan instalasi Moodle melalui web browser..."
 
-# Menyelesaikan instalasi melalui web
-echo "Buka browser dan buka alamat: http://$local_ip/moodle"
-echo "Ikuti instruksi untuk menyelesaikan instalasi Moodle."
+#Sukses
+echo -e "${GREEN}============================================================================${NC}"
+echo -e "${GREEN}========= Buka browser dan buka alamat: http://$local_ip/moodle ============${NC}"
+echo -e "${GREEN}=================== Informasi: Whatsapp 0853-2269-2888 =====================${NC}"
+echo -e "${GREEN}============================================================================${NC}"
 
 # Catatan tambahan: Anda akan diminta untuk memasukkan database dan informasi administrator Moodle selama instalasi web
